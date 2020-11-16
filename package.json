@@ -1,14 +1,17 @@
 {
-  "name": "learn-heroku",
+  "name": "mihaigrecipes",
   "version": "1.0.0",
-  "dependencies": {
+  "dependencies": 
+  {
     "http-server": "^0.9.0",
     "live-server": "^1.2.0"
   },
-  "engines": {
+  "engines": 
+  {
     "node": "6.10.x"
   },
-  "scripts": {
+  "scripts": 
+  {
     "start": "node node_modules/.bin/http-server",
     "local": "node_modules/.bin/live-server --port=8080"
   }
